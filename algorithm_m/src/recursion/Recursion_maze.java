@@ -20,4 +20,17 @@ public class Recursion_maze {
 	};
 	
 	
+	/*미로의 길을 찾을 함수 생성*/
+	public static boolean findMazePath(int x, int y) {
+		return true;
+	}
+	
+	/*미로를 출력할 함수 생성*/
+	public static void printMaze() {
+		
+	}	
+	
+	public static void main(String[] args) {
+		
+	}
 }
