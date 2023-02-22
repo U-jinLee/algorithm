@@ -31,7 +31,7 @@ public class SquareDigit {
         String result = "";
         for (char c : String.valueOf(n).toCharArray()) {
            int digit = Character.digit(c, 10);
-            result += digit * digit;
+           result += digit * digit;
         }
         return Integer.parseInt(result);
     }
