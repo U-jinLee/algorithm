@@ -16,5 +16,8 @@ public class BitCounting {
     public static int countBits(int n) {
         return Integer.toBinaryString(n).replace("0", "").length();
     }
-
+    
+    public static int parseCountBits(int n) {
+        return Integer.bitCount(n);
+    }
 }
