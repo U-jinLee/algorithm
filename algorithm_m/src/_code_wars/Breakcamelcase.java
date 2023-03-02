@@ -22,4 +22,9 @@ public class Breakcamelcase {
 
         return stringBuilder.toString();
     }
+    
+    public static String refineCamelCase(String input) {
+        return input.replaceAll("([A-Z])", " $1");
+    }
+    
 }
